@@ -15,9 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "eslint src",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "lint": "eslint src"
   },
   "browserslist": {
     "production": [

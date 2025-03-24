@@ -8,11 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     permissions:
-      pages: write
-      id-token: write
-
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -30,6 +27,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build

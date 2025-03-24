@@ -7,15 +7,15 @@ const TOKEN = queryParams.get('token');
 const CONFIG = [
   {
     id: 'nag_noise_really_too_loud',
-    title: 'Really too loud!',
+    title: '🚨 Really too loud!',
   },
   {
     id: 'nag_noise_too_loud',
-    title: 'Too loud!',
+    title: '⚠️ Too loud!',
   },
   {
     id: 'nag_noise_is_fine',
-    title: 'Fine',
+    title: '✅ Fine',
   },
 ];
 

@@ -35,4 +35,3 @@ This system helps maintain a productive and respectful office atmosphere.
    ```bash
    git clone https://github.com/your-username/nag-hue-volume-light.git
    cd nag-hue-volume-light
-   
